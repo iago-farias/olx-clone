@@ -6,6 +6,32 @@ import {RectButton} from 'react-native-gesture-handler'
 
 import styles from './styles';
 
+const anuncios = [{
+    titulo: 'Título do anúncio',
+    preco: 20000,
+    dataHora: '20 junho 17:00',
+    local: 'Brasília'
+},
+{
+    titulo: 'Título do anúncio',
+    preco: 20000,
+    dataHora: '20 junho 17:00',
+    local: 'Brasília'
+},
+{
+    titulo: 'Título do anúncio',
+    preco: 20000,
+    dataHora: '20 junho 17:00',
+    local: 'Brasília'
+},
+{
+    titulo: 'Título do anúncio',
+    preco: 20000,
+    dataHora: '20 junho 17:00',
+    local: 'Brasília'
+},
+];
+
 function Feed(){
     const navigation = useNavigation();
 
@@ -33,119 +59,24 @@ function Feed(){
 
 
             <ScrollView style={{marginTop:15, paddingHorizontal:10}}>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            <TouchableOpacity onPress={handleAnuncioPress}>
-                    <View style={styles.anuncio}>
-                        <Image 
-                        style={{height:115, width:120}}
-                        resizeMode='stretch'
-                        source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
-                        />
-                        <View style={{marginLeft:10, alignItems:'center', justifyContent:'space-between'}}>
-                            <Text style={styles.tituloAnuncio}>Título do anúncio</Text>
-                            <Text style={styles.precoAnuncio}>Preço</Text>
-                            <Text style={styles.dataLocalAnuncio}>20 junho 17:00, Brasília</Text>
-                        </View>                 
-                    </View>
-                </TouchableOpacity>
-            
+                {
+                    anuncios.map(anuncio => ( 
+                    <TouchableOpacity onPress={handleAnuncioPress}>
+                        <View style={styles.anuncio}>
+                            <Image 
+                            style={{height:110, width:120}}
+                            resizeMode='stretch'
+                            source={{uri:'https://quatrorodas.abril.com.br/wp-content/uploads/2019/08/uno-mile-modelo-1980-da-fiat-do-colecionador-secc81rgio-minervini.-e1566934866507.jpg?quality=70&strip=info'}} 
+                            />
+                            <View style={{marginLeft:10, justifyContent:'space-between', paddingVertical:7}}>
+                                <Text style={styles.tituloAnuncio}>{anuncio.titulo}</Text>
+                                <Text style={styles.precoAnuncio}>{"R$ "+anuncio.preco}</Text>
+                                <Text style={styles.dataLocalAnuncio}>{anuncio.dataHora+', '+anuncio.local}</Text>
+                            </View>                 
+                        </View>
+                    </TouchableOpacity>
+                    ))
+                }
             </ScrollView>
 
             <RectButton style={styles.anunciarButton}>
@@ -154,9 +85,7 @@ function Feed(){
                 <Text style={styles.textButton}>Anunciar agora</Text>
             </RectButton>
             
-        </SafeAreaView>
-       
-        
+        </SafeAreaView>    
     );
 }
 

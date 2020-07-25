@@ -26,10 +26,10 @@ const styles = StyleSheet.create({
         flexDirection:'row',
         borderRadius:5,
         shadowColor:'#000',
-        shadowOpacity:3,
+        shadowOpacity:0,
         marginBottom:8,
-        zIndex:5,
-        elevation:2,
+        zIndex:0,
+        elevation:1,
         borderColor:'#e8e9eb',
         borderWidth:1
     },
