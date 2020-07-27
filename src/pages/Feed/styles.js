@@ -8,17 +8,36 @@ const styles = StyleSheet.create({
         justifyContent:'space-between'
     },
 
+    headerContainer:{
+        position:'absolute',
+        width:'100%',
+        top:0,
+        elevation:1.5,
+    },
+
     header:{
         backgroundColor:'#6632a8',
         height:55,
         flexDirection:'row',
         justifyContent:'space-between',
         alignItems:'center',
-        paddingHorizontal:10
+        paddingHorizontal:10,
+        
     },
 
-    headerButtons:{
+    filterContainer:{
+        flexDirection:'row',
+        justifyContent:'center',
+       
+    },
 
+    filterButton:{
+        borderRightColor:"#ccc",
+        borderRightWidth:1,
+        justifyContent:'center',
+        alignItems:'center',
+        width:'33%',
+        height: 50
     },
 
     anuncio:{
@@ -31,7 +50,7 @@ const styles = StyleSheet.create({
         zIndex:0,
         elevation:1,
         borderColor:'#e8e9eb',
-        borderWidth:1
+        borderWidth:0
     },
 
     tituloAnuncio:{

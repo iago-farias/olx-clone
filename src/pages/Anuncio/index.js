@@ -48,7 +48,7 @@ function Anuncio(){
 
             <View>
                 <View style={styles.dataContainer}>
-                    <Text style={styles.precoText}>R$ 50.000</Text>
+                    <Text style={styles.precoText}>R$ 20.000</Text>
                     <Text style={styles.tituloText}>Título</Text>
                     <Text style={styles.dataText}>Publicado em 04/05 às 17:00</Text>
                 </View>
